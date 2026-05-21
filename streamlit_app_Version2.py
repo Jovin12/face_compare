@@ -7,9 +7,9 @@ import os
 import atexit
 
 # Import functions from your other files
-from crop_license import crop_license_face
-from compare_faces import compare_id_photo
-from take_img import capture_license_image
+from src.crop_license import crop_license_face
+from src.compare_faces import compare_id_photo
+from src.take_img import capture_license_image
 
 # Note: The capture_license_image function uses OpenCV window which won't work in Streamlit
 # We'll keep Streamlit's camera_input for webcam functionality
